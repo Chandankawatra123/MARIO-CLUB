@@ -1,0 +1,126 @@
+ 
+HEADER{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: red;
+   
+    padding: 15PX;
+    left: 0;
+    
+    top: 0;
+ 
+}
+HEADER H1{
+    border: 4PX SOLID white;
+    display: inline;
+    border-radius: 14PX;
+
+}
+.ADDITIONAL{
+    width: 100%;
+}
+.SECTION img{
+    top: 200px;
+    left: 30PX;
+}
+
+.div{
+    border: 3px solid white;
+    
+}
+ .additional .div{
+    position: absolute;
+
+   left: 150px;
+    top: 40%;
+    color: white;background-color: rgba(255, 30, 30, 0.904);
+    border-radius: 10px;
+    padding-left: 6PX;
+    padding: 10px;
+   }
+   .LINKS{
+    
+    background-color: antiquewhite;
+    padding: 20px;
+   }
+   ul{
+    white-space: nowrap;
+   }
+   nav li{
+    width: 25%;
+    font-size: 24px;
+    
+    display: inline-block;
+   }
+   nav li a{
+    color: rgb(47, 43, 43);
+   }
+   nav li a.noice{
+    color: red;
+   }
+   main{
+    margin: 80px;
+    background-color: bisque;
+    padding: 40 70px;
+    max-width: 100%;
+    width: 1200px;
+    box-sizing: border-box;
+
+   }
+   article h2{
+    color: red;
+    font-size: 40px;
+   }
+   article p{
+    line-height: 2em;
+    font-size: 18px;
+    color: darkblue;
+   }
+   .IMAGES{
+    text-align: center;
+   }
+   .IMAGES li{
+    display: inline-block;
+    width: 25%;
+   }
+   .JOIN{
+    background-color: blanchedalmond;
+    color: rgb(129, 42, 11);
+    text-align: center;
+    padding: 40PX 40PX;
+
+   }
+   .JOIN h2{
+font-size: 30PX;
+color: RED;
+   }
+form input{
+    margin: 15PX;
+    border: 3PX solid brown;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    background-color: red;
+    padding: 25PX 25PX;
+    text-align: center;
+}
+  /* PSEUDO CLASSES */
+
+  NAV LI a:hover{
+    text-decoration: underline;
+    background-color: pink;
+
+  }
+  .IMAGES li:hover{
+    position: relative;
+    top: -4PX;
+    
+   }
+   form input{
+    border: dashed blue;
+    outline: none;
+   }
+   form input:valid{
+    border: green solid 3PX;
+   }
